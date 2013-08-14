@@ -1,0 +1,27 @@
+{
+    "name": "michaelesmith/object-cache",
+    "version": "0.1",
+    "description": "An object cache that will seamlessly cache all method calls to an object",
+    "keywords": ["cache"],
+    "homepage": "https://github.com/michaelesmith/ObjectCache",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Smith",
+            "email": "sitecross@gmail.com",
+            "homepage": "http://michaelsmithonline.blogspot.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/michaelesmith/ObjectCache/issues"
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/cache": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "MS\\Cache": "src/" }
+    },
+    "minimum-stability": "beta"
+}
